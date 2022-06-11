@@ -1,0 +1,149 @@
+.sf-home-board-image {
+    position: relative;
+}
+
+.sf-home-board-image>img {
+    width: 100%;
+}
+
+.sf-home-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000079;
+    display: flex;
+    align-items: center;
+}
+
+
+.sf-hio-content {
+    width: 50%;
+    padding-left: 3%;
+    color: #ffffff;
+}
+
+.sf-hio-content>h3 {
+    font-size: 2.5vw;
+    margin-bottom: 1.2vh;
+}
+
+.sf-hio-content>p {
+    font-size: 4vw;
+    margin-bottom: 1.2vh !important;
+}
+
+.sf-hio-content>h5 {
+    font-size: 2vw;
+}
+
+.sf-home-div1>p {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sf-home-services-def {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sf-home-div-services {
+    background-color: var(--sf-header-bg-color);
+}
+
+.sf-home-div-services>.sf-home-services-def:not(:last-child) {
+    margin-bottom: 70px;
+}
+
+.sf-hsd-cont-div {
+    flex-basis: 65%;
+}
+
+.sf-hsd-image-div {
+    flex-basis: 30%;
+}
+
+.sf-hsd-cont-div>h2 {
+    font-size: 24px;
+}
+
+.sf-hsd-cont-div>p {
+    font-size: 18px;
+    margin-bottom: 10px !important;
+}
+
+.sf-hsd-cont-div>a {
+    display: block;
+    width: fit-content;
+    padding: 8px 5px;
+    border-radius: 5px;
+    color: #ffffff !important;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: var(--head-nav-active);
+
+}
+
+.sf-hsd-image-div>img {
+    width: 100%;
+}
+
+.sf-home-popular-links {
+    background-color: var(--sf-header-bg-color);
+}
+
+.sf-home-popular-links>p {
+    font-weight: 500;
+    margin-bottom: 8px !important;
+}
+
+.sf-hp-links {
+    display: flex;
+    align-items: center;
+}
+
+.sf-hp-links>span {
+    margin: 0px 6px;
+    margin-top: 3.5px;
+    height: 15px;
+    width: 2px;
+    background-color: #242424;
+}
+
+.sf-hp-links>a {
+    color: #242424 !important;
+    text-decoration: none;
+}
+
+.sf-hsd-image-div-mobile {
+    display: none;
+}
+
+.sf-hsd-image-div-mobile {
+    margin-top: 50px;
+}
+
+@media (max-width:901px) {
+    .sf-hsd-cont-div {
+        flex-basis: 100%;
+    }
+
+    .sf-home-services-def:not(:last-child){
+        margin-bottom: 35px !important;
+        padding-bottom: 35px;
+        border-bottom: 3px solid var(--head-nav-active);
+    }
+
+    .sf-hsd-image-div {
+        display: none;
+    }
+
+    .sf-hsd-image-div-mobile {
+        display: grid;
+        justify-items: center;
+        width: 100%;
+    }
+}

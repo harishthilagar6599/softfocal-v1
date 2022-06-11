@@ -1,0 +1,76 @@
+.sf-services-img-ques {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.sf-siq-image-div {
+    flex-basis: 49%;
+}
+
+.sf-siq-image-div>img {
+    width: 100%;
+}
+
+.sf-siq-content-div {
+    flex-basis: 48%;
+}
+
+.sf-serv-que-ans-div>p {
+    font-size: 17px;
+}
+
+.sf-sqad-q {
+    font-size: 20px !important;
+    font-weight: 500;
+}
+
+.sf-serv-tech-stack-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sf-serv-tech-stack-div>div {
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.sf-serv-tech-stack-div>div>img {
+    width: 50%;
+}
+
+.sf-serv-tech-stack-div>div>p{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 10px !important;
+    flex-basis: 100%;
+}
+
+.as-pmo-div1 li{
+    font-size: 17px;
+}
+
+.sf-serv-que-ans-div>ul>li{
+    font-size: 17px;
+}
+
+.sf-stsd-pmo>div>img{
+    width: 80%;
+}
+
+
+@media (max-width:901px) {
+    .sf-siq-image-div {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .sf-siq-content-div {
+        flex-basis: 100%;
+    }
+}
