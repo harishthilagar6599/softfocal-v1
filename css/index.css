@@ -234,7 +234,7 @@ footer {
     padding: 18px 3% 18px 3%;
 }
 
-.sf-padb-36{
+.sf-padb-36 {
     padding-bottom: 36px;
 }
 
@@ -242,14 +242,15 @@ footer {
     font-size: 18px;
 }
 
-.sf-p-17{
+.sf-p-17 {
     font-size: 17px;
 }
 
 .sf-p-tac {
     text-align: center;
 }
-.sf-plr-3per{
+
+.sf-plr-3per {
     padding-left: 3%;
     padding-right: 3%;
 }
@@ -262,6 +263,10 @@ footer {
 }
 
 @media (max-width:901px) {
+    .header-services-li:hover>ul {
+        display: block;
+    }
+
     .sf-header-menu {
         display: none;
         flex-basis: 100%;
