@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
     --sf-header-bg-color: #f7f7f7;
     --head-nav-active: #780001;
@@ -6,6 +8,10 @@
     --sf-footer-bg-color: #525252;
     --sf-copyright-bg: #3b3b3b;
     --sf-about-inexp-bg: #2e2e2e;
+}
+
+body{
+    font-family: 'Poppins', sans-serif !important;
 }
 
 p {
@@ -45,7 +51,7 @@ header {
 .sf-header-menu>li {
     list-style: none;
     flex-basis: 15%;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .sf-header-menu>li svg,

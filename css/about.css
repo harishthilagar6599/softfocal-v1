@@ -41,6 +41,10 @@
     justify-items: center;
 }
 
+.sf-about-industry-exp>div>img{
+    width: 40%;
+}
+
 .sf-about-industry-exp>div>p {
     font-size: 18px;
     margin-top: 10px;
